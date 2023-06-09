@@ -11,7 +11,7 @@ function App() {
   const [colaboradores, actualizarColaboradores] = useState([{
     equipo: "Front End",
     foto: "https://github.com/David-F-98.png",
-    nombre: "David Rodriguez",
+    nombre: "David Rodríguez",
     puesto: "Alumno ONE"
   }])
   //Ternario --> condicion ? seMuestra : noSeMuestra

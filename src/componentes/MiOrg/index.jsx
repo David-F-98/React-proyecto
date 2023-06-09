@@ -1,16 +1,16 @@
 import { useState } from "react"
 import "./MiOrg.css"
 
-const MiOrg = (props) =>{
-    //Estado - hooks  ==> funcionalidadaes
+const MiOrg = (props) => {
+    //Estado - hooks
     //useState
-    //const [nombreVariable, funcionActualiza] = useState(valorInicial)
+    //const [nombreVariable,funcionActualiza] = useState(valorInicial)
     console.log(props)
-    /* const [mostrar, actualizaMostrar] = useState(true)
-    const manejarClick = () =>{
-        console.log("Mostrar/Ocultar elemento", !mostrar)
-        actualizaMostrar(!mostrar)
-    } */
+    // const [mostrar, actualizarMostrar] = useState(true)
+    // const manejarClick = () => {
+    //     console.log("Mostrar/Ocultar elemento", !mostrar)
+    //     actualizarMostrar(!mostrar)
+    // }
 
     return <section className="orgSection">
         <h3 className="title">Mi organización</h3>
@@ -18,4 +18,4 @@ const MiOrg = (props) =>{
     </section>
 }
 
- export default MiOrg
+export default MiOrg
